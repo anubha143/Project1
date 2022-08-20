@@ -13,6 +13,7 @@ const MultiselectCheckbox = ({ options, onChange }) => {
     console.log("just printing to test");
     console.log("just printing to testingggg");
     console.log("another commit");
+    console.log("learning about git commands");
     onChange(newData.filter((x) => x.checked));
   };
 
