@@ -10,6 +10,7 @@ const MultiselectCheckbox = ({ options, onChange }) => {
     });
     setData(newData);
     console.log("here is the new data", newData);
+    console.log("just printing to test");
     onChange(newData.filter((x) => x.checked));
   };
 
