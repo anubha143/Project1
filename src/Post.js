@@ -5,7 +5,7 @@ const Post = () => {
   const [state, dispatch] = useReducer(postReducer, INITIAL_STATE);
   const handleFetch = () => {
     dispatch({ type: "FETCH_START" });
-    fetch("")
+    fetch("https://jsonplaceholder.typicode.com/posts/1")
       .then((res) => {
         return res.json();
       })
